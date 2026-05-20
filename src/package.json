@@ -1,0 +1,19 @@
+{
+  "name": "procurement-dashboard-monorepo",
+  "version": "1.0.0",
+  "description": "Procurement order-management dashboard - monorepo root",
+  "private": true,
+  "scripts": {
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "build": "npm run backend:build && npm run frontend:build",
+    "start": "cd backend && npm run start:prod",
+    "dev": "npm run backend:dev",
+    "backend:install": "cd backend && npm install",
+    "backend:build": "cd backend && npm run build",
+    "backend:dev": "cd backend && npm run start:dev",
+    "backend:start": "cd backend && npm run start:prod",
+    "frontend:install": "cd frontend && npm install",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:dev": "cd frontend && npm run dev"
+  }
+}
