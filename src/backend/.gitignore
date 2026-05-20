@@ -1,0 +1,40 @@
+# ===========================================
+# Backend .gitignore
+# ===========================================
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeORM
+ormconfig.json
+
+# Temporary
+tmp/
+temp/
